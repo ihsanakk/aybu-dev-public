@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: aybu-dev
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: client-id
+            client-secret: client-secret
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: url
+    username: username
+    password: password

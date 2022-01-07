@@ -1,0 +1,38 @@
+.aybu-brand{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border: 1px solid #343434;
+    border-radius: 4px;
+    padding: 4px;
+    color: aliceblue !important;
+}
+.aybu-brand:hover{
+    background-color: #fff !important;
+    color:#000 !important;
+    transition: .4s;
+}
+
+html, body {
+    background-color: #343434;
+}
+.share-post-form{
+    padding: 20px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+#me-page:hover{
+    text-decoration: underline;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+#github-link-img:hover{
+    transition: 0.5s;
+    opacity: 1;
+}
+#github-link-img{
+    opacity: 0.9;
+}
